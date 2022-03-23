@@ -1,0 +1,52 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#MessagesList {
+    width: 100%;
+    height: 90%;
+    right: 0;
+    top: 0;
+    position: absolute;
+    background-color: #03396c;
+    overflow: auto;
+}
+#MessageBox {
+    width: 90%;
+    height: 9.7%;
+    bottom: 0%;
+    left: 0;
+    outline: none;
+    position: absolute;
+    background-color: #011f4b;
+    color: white;
+    border: none;
+}
+#btnSend {
+    width: 10%;
+    height: 10%;
+    bottom: 0%;
+    right: 0%;
+    position: absolute;
+    cursor: pointer;
+    border: none;
+    background-color: #283655;
+    color: white;
+}
+p {
+    color: white;
+}
+
+#ModalName {
+    width: 15%;
+    height: auto;
+    background-color: white;
+    left: auto;
+    right: auto;
+    position: relative;
+    display: block;
+}
+h3 {
+    color: white;
+    text-align: center;
+}

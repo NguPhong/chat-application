@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://img.icons8.com/ios-glyphs/2x/chat.png">
+    <title>Chat App Web</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+    <div id="MessagesList">
+        <h3 style="text-align: center;color: white;">Welcome to Chat App Web made by NgoDP</h3>
+    </div>
+    <div id="ModalName">
+        <label for="TxtBoxName">Nhập tên của bạn</label>
+        <br>
+        <input type="text" id="TxtBoxName" placeholder="Tên của bạn...">
+    </div>
+    <input type="text" id="MessageBox" name="Message" placeholder="Type your message here...">
+    <button id="btnSend">Send</button>
+    <script src="./client.js"></script>
+</body>
+</html>
