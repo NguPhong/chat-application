@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+        <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-eval' http://cdnjs.cloudflare.com;">
+        <link rel="icon" href="./chat.png">
+        <title>Chat App Deskop</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.4.1/socket.io.min.js"></script>
+    </head>
+    <body>
+        <div id="MessagesList">
+            <h3>Welcome to Chat App Web made by NgoDP</h3>
+        </div>
+        <div id="ModalName">
+            <label for="TxtBoxName">Nhập tên của bạn</label>
+            <br>
+            <input type="text" id="TxtBoxName" placeholder="Tên của bạn...">
+        </div>
+        <input type="text" id="MessageBox" name="Message" placeholder="Type your message here...">
+        <button id="btnSend">Send</button>
+        <script src="./client.js"></script>
+    </body>
+</html>
